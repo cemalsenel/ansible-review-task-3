@@ -1,0 +1,8 @@
+---
+- hosts: storage_nodes
+  tasks:
+  - name: copy resolv.conf to nodes
+    become: true
+    template:
+      src: /home/thor/playbooks/dns/templates/resolv.conf.j2
+      dest: /tmp/resolv.conf

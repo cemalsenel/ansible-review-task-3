@@ -1,0 +1,11 @@
+---
+- hosts: node00
+  tasks:
+   - yum: name=firewalld state=installed
+   - service: name=firewalld state=started
+   - firewalld:
+      source: 172.20.1.101
+      state: enabled
+      zone: internal
+      permanent: yes
+      immediate: yes

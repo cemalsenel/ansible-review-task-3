@@ -1,0 +1,3 @@
+[storage_nodes] 
+node00 ansible_host=xxxx ansible_ssh_pass=xxxx ansible_user=root dns_server=xxxx
+node01 ansible_host=xxxx ansible_ssh_pass=xxxx ansible_user=root dns_server=xxxx

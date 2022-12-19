@@ -1,0 +1,2 @@
+node00 ansible_host=xxxx ansible_ssh_pass=xxxx ansible_user=root
+node01 ansible_host=xxxx ansible_ssh_pass=xxxx ansible_user=root
